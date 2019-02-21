@@ -1,10 +1,10 @@
 {
-  "name": "weui-wxss",
-  "version": "1.1.1",
+  "name": "miniprogram-cli",
+  "version": "1.0.0",
   "description": "weui-wxss",
   "main": "dist/style/weui.wxss",
   "directories": {
-    "example": "example"
+    "pages": "pages"
   },
   "scripts": {
     "start": "gulp",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/weui/weui-wxss/"
+    "url": "https://github.com/XiaoBingBy/miniprogram-cli"
   },
-  "homepage": "https://github.com/weui/weui-wxss",
+  "homepage": "https://github.com/XiaoBingBy/miniprogram-cli",
   "keywords": [
     "weui",
     "wxss"
   ],
-  "author": "wechat ui team",
-  "license": "MIT",
+  "author": "XiaoBingBy",
+  "license": "Apache License 2.0",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "gulp": "^3.9.1",

@@ -13,8 +13,8 @@ gulp.task('watch', function() {
 gulp.task('build:style', function() {
   var banner = [
     '/*!',
-    ' * WeUI v<%= pkg.version %> (<%= pkg.homepage %>)',
-    ' * Copyright <%= new Date().getFullYear() %> Tencent, Inc.',
+    ' * <%= pkg.name %> v<%= pkg.version %> (<%= pkg.homepage %>)',
+    ' * Copyright <%= new Date().getFullYear() %> XiaoBingBy',
     ' * Licensed under the <%= pkg.license %> license',
     ' */',
     ''
