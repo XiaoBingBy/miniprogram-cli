@@ -1,1 +1,15 @@
 /* pages/index.wxss */
+page {
+    background-color: #fff;
+}
+
+.card-swiper {
+    height: 350rpx;
+}
+.card-swiper swiper-item {
+    padding: 0;
+}
+/*.bg-img {*/
+    /*background-repeat:no-repeat;*/
+    /*background-size:100% 100%;*/
+/*}*/
