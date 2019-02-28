@@ -7,6 +7,7 @@ Page({
     data: {
         DotStyle: true,
         cardCur: 0,
+        gridCol: 4,
         iconList: [{
             icon: 'cardboardfill',
             color: 'red',

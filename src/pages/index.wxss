@@ -9,6 +9,9 @@ page {
 .card-swiper swiper-item {
     padding: 0;
 }
+.cu-list.grid>.cu-item [class*="icon"] {
+    font-size: 55rpx;
+}
 /*.bg-img {*/
     /*background-repeat:no-repeat;*/
     /*background-size:100% 100%;*/

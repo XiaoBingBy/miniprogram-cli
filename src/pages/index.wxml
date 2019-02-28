@@ -2,15 +2,16 @@
 <view>
     <swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
         <swiper-item wx:for="{{4}}" wx:key class="{{cardCur==index?'cur':''}}">
-            <view class='bg-img shadow-blur' style="background-image:url(https://image.weilanwl.com/img/4x3-{{index+1}}.jpg)"></view>
+            <!--<view class='bg-img shadow-blur' style="background-image:url(https://image.weilanwl.com/img/4x3-{{index+1}}.jpg)"></view>-->
+            <image class="bg-img shadow-blur" mode="aspectFill" src="https://image.weilanwl.com/img/4x3-{{index+1}}.jpg"></image>
         </swiper-item>
     </swiper>
 
-    <view class="cu-list grid col-5 margin-top-sm">
-        <view class="cu-item" wx:for="{{iconList}}" wx:key>
+    <view class="cu-list grid col-{{gridCol}} no-border margin-top-sm">
+        <view class="cu-item" wx:for="{{iconList}}" wx:key wx:if="{{index<gridCol*2}}">
             <view class='icon-{{item.icon}} text-{{item.color}}'>
                 <view class="cu-tag badge" wx:if="{{item.badge!=0}}">
-                    <block wx:if="{{item.badge!=1}}">{{item.badge>99?'99+':item.badge}}</block>
+                    <block wx:if="{{item.badge!=1}}">new</block>
                 </view>
             </view>
             <text>{{item.name}}</text>
