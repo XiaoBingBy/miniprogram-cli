@@ -3,6 +3,10 @@ page {
     background-color: #fff;
 }
 
+.screen-swiper {
+
+}
+
 /* ==================
           操作条
  ==================== */
